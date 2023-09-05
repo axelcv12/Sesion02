@@ -21,7 +21,7 @@ System.out.print("===JPACRUD===");
 		
 		List<TbUsuario> lstUsuario = em.createQuery("Select a From TbUsuario a",TbUsuario.class).getResultList();
 		System.out.print("El Número de Usuarios es :"+ lstUsuario.size());
-		
+		/*¨---*/
 		
 		/*Listar todos los usuarios*/
 		/*
